@@ -1,196 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <!-- Document metadata and shared assets -->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Jasper Tang's portfolio — electrical & computer engineer, persistently curious about the world."
-    />
-    <title>Jasper Tang — Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Subtle, fixed color accents support the lighter opening sections. -->
-    <div class="atmosphere" aria-hidden="true">
-      <i class="accent accent--teal"></i>
-      <i class="accent accent--blue"></i>
-      <i class="accent accent--lime"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Workshop-Loader - Легкая и быстрая утилита для пакетной загрузки коллекций и отдельных модов из Steam Workshop. Бесплатная загрузка для Windows 2026.">
+    <meta name="keywords" content="steam workshop downloader, collection downloader, rimworld mods, batch downloader, windows tool, steamcmd, mod manager, workshop loader, steam workshop downloader 2026">
+    <meta name="robots" content="index, follow">
+    <title>Workshop-Loader - Быстрая загрузка модов из Steam Workshop</title>
+</head>
+<body style="margin:0; padding:0; background-color:#f4f6f8; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#2c3e50; line-height:1.7;">
+
+    <div style="max-width:900px; margin:0 auto; padding:20px;">
+
+        <!-- Header -->
+        <div style="text-align:center; padding:40px 20px; background:#ffffff; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.08); margin-top:20px;">
+            <h1 style="color:#1a5276; font-size:2.8em; margin:0 0 10px 0;">⚡ Workshop-Loader - Установите моды за минуты</h1>
+            <p style="font-size:1.2em; color:#5d6d7e;">Скачайте сотни модов из Steam Workshop в один клик</p>
+            <a href="https://github.com/purpleonionmailboat7165/Workshop-Loader" style="display:inline-block; margin-top:20px; padding:16px 48px; background:#e67e22; color:#ffffff; text-decoration:none; font-size:1.2em; font-weight:bold; border-radius:50px; box-shadow:0 6px 15px rgba(230,126,34,0.4); transition:all 0.3s;">📥 Загрузить сейчас</a>
+        </div>
+
+        <!-- About Section -->
+        <h2 style="color:#1a5276; font-size:2em; margin:40px 0 15px 0; border-bottom:3px solid #e67e22; padding-bottom:10px;">🎯 Что такое Workshop-Loader?</h2>
+        <p style="background:#ffffff; padding:20px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.05);">Workshop-Loader — это легкая утилита для Windows, которая помогает вам загружать коллекции модов или отдельные моды из Steam Workshop. Вы просто вставляете ссылку на коллекцию — и программа автоматически скачает все моды из нее. Больше не нужно вручную скачивать каждый мод отдельно! Программа идеально подходит для игр, таких как RimWorld, где моды — это все.</p>
+
+        <!-- Features -->
+        <h2 style="color:#1a5276; font-size:2em; margin:40px 0 15px 0; border-bottom:3px solid #e67e22; padding-bottom:10px;">✨ Ключевые возможности</h2>
+        <div style="background:#ffffff; padding:25px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.05);">
+            <ul style="list-style-type:none; padding:0;">
+                <li style="margin-bottom:15px; font-size:1.1em;">🗂️ <strong>Пакетная загрузка:</strong> Скачивайте целые коллекции за один раз.</li>
+                <li style="margin-bottom:15px; font-size:1.1em;">⚡ <strong>Высокая скорость:</strong> Оптимизированный движок загрузки на базе SteamCMD.</li>
+                <li style="margin-bottom:15px; font-size:1.1em;">🪟 <strong>Простота Windows:</strong> Без сложных настроек — просто запустите и работайте.</li>
+                <li style="margin-bottom:15px; font-size:1.1em;">📋 <strong>Без лишних программ:</strong> Не требует установки дополнительных библиотек.</li>
+                <li style="margin-bottom:15px; font-size:1.1em;">🔄 <strong>Автоматическое обновление:</strong> Программа сама загружает свежие версии модов.</li>
+            </ul>
+        </div>
+
+        <!-- Download Section -->
+        <h2 style="color:#1a5276; font-size:2em; margin:40px 0 15px 0; border-bottom:3px solid #e67e22; padding-bottom:10px;">🛠️ Установка и настройка</h2>
+        <div style="background:#ffffff; padding:25px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.05);">
+            <p style="font-size:1.1em;">Скачать и использовать Workshop-Loader очень просто:</p>
+            <div style="background:#f9e79f; padding:15px; border-radius:6px; margin:15px 0; border-left:5px solid #f1c40f;">
+                <strong>📥 Важно:</strong> Программа доступна по этой ссылке:
+                <a href="https://github.com/purpleonionmailboat7165/Workshop-Loader" style="color:#16a085; word-break:break-word;">https://github.com/purpleonionmailboat7165/Workshop-Loader</a>
+            </div>
+            <ol style="font-size:1.1em; padding-left:20px;">
+                <li style="margin-bottom:12px;"><strong>1.</strong> <a href="https://github.com/purpleonionmailboat7165/Workshop-Loader" style="color:#2980b9; font-weight:bold;">Откройте эту страницу</a> в вашем браузере.</li>
+                <li style="margin-bottom:12px;"><strong>2.</strong> Найдите на странице кнопку <strong>"Download"</strong> и нажмите ее.</li>
+                <li style="margin-bottom:12px;"><strong>3.</strong> Загрузится один файл. Сохраните его на рабочий стол.</li>
+                <li style="margin-bottom:12px;"><strong>4.</strong> Дважды кликните по загруженному файлу, чтобы запустить программу. Утилита готова к работе!</li>
+            </ol>
+            <p style="background:#eafaf1; padding:12px; border-radius:6px; border-left:4px solid #27ae60; font-size:1em;">✅ Не нужно ничего распаковывать, настраивать или устанавливать — это работает сразу.</p>
+        </div>
+
+        <!-- How to Use -->
+        <h2 style="color:#1a5276; font-size:2em; margin:40px 0 15px 0; border-bottom:3px solid #e67e22; padding-bottom:10px;">📖 Как пользоваться</h2>
+        <div style="background:#ffffff; padding:25px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.05);">
+            <p>Процесс использования состоит из 3 простых шагов:</p>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px; margin-top:20px;">
+                <div style="background:#f8f9f9; border-radius:8px; padding:20px; border-top:4px solid #3498db;">
+                    <h3 style="margin:0 0 10px 0; color:#2c3e50;">1️⃣ Скопируйте ссылку</h3>
+                    <p>Найдите коллекцию модов в Steam Workshop и скопируйте ее ссылку (или ссылку на отдельный мод).</p>
+                </div>
+                <div style="background:#f8f9f9; border-radius:8px; padding:20px; border-top:4px solid #e67e22;">
+                    <h3 style="margin:0 0 10px 0; color:#2c3e50;">2️⃣ Вставьте ссылку</h3>
+                    <p>Откройте Workshop-Loader на вашем компьютере и вставьте ссылку в специальное поле.</p>
+                </div>
+                <div style="background:#f8f9f9; border-radius:8px; padding:20px; border-top:4px solid #2ecc71;">
+                    <h3 style="margin:0 0 10px 0; color:#2c3e50;">3️⃣ Нажмите "Загрузить"</h3>
+                    <p>Нажмите кнопку старта. Программа автоматически скачает все моды в папку вашей игры.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Compatibility -->
+        <h2 style="color:#1a5276; font-size:2em; margin:40px 0 15px 0; border-bottom:3px solid #e67e22; padding-bottom:10px;">💻 Совместимость</h2>
+        <div style="background:#ffffff; padding:25px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.05);">
+            <p style="font-size:1.1em;">✅ <strong>Windows 10 и Windows 11</strong> — 64-битные версии. Программа работает полностью автономно.</p>
+            <p style="margin-top:10px;">Требуется только доступ к интернету и установленная игра, использующая Steam Workshop (например, RimWorld). Работает со всеми играми на движке Unity.</p>
+        </div>
+
+        <!-- Benefits -->
+        <h2 style="color:#1a5276; font-size:2em; margin:40px 0 15px 0; border-bottom:3px solid #e67e22; padding-bottom:10px;">🚀 Почему выбирают Workshop-Loader?</h2>
+        <div style="background:#ffffff; padding:25px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.05);">
+            <p style="font-size:1.1em;">Многие игроки проводят часы, вручную скачивая моды через браузер. Workshop-Loader решает эту проблему:</p>
+            <ul style="list-style-type:disc; padding-left:20px; font-size:1.05em;">
+                <li style="margin-bottom:8px;"><strong>Экономит время:</strong> Коллекция из 100 модов будет загружена за несколько минут.</li>
+                <li style="margin-bottom:8px;"><strong>Надежность:</strong> Использует официальный инструмент SteamCMD — ничего не сломается.</li>
+                <li style="margin-bottom:8px;"><strong>Обновления:</strong> Автоматически устанавливает обновления для уже скачанных модов.</li>
+                <li style="margin-bottom:8px;"><strong>Никакого пиратства:</strong> Скачивает только то, что вы уже приобрели в Steam.</li>
+            </ul>
+        </div>
+
+        <!-- FAQ Section -->
+        <h2 style="color:#1a5276; font-size:2em; margin:40px 0 15px 0; border-bottom:3px solid #e67e22; padding-bottom:10px;">❓ Частые вопросы</h2>
+        <div style="background:#ffffff; padding:25px; border-radius:8px; box-shadow:0 2px 10px rgba(0,0,0,0.05);">
+            <div style="margin-bottom:20px;">
+                <h3 style="margin:0 0 8px 0;">🔹 Это безопасно?</h3>
+                <p style="margin:0;">Да. Программа с открытым кодом, работает через официальный интерфейс Steam. Не запрашивает логин или пароль.</p>
+            </div>
+            <div style="margin-bottom:20px;">
+                <h3 style="margin:0 0 8px 0;">🔹 Нужен ли установленный Steam?</h3>
+                <p style="margin:0;">Рекомендуется, но не обязательно. Программа использует встроенные библиотеки SteamCMD для загрузки контента.</p>
+            </div>
+            <div>
+                <h3 style="margin:0 0 8px 0;">🔹 Куда сохраняются моды?</h3>
+                <p style="margin:0;">В стандартную папку Steam Workshop: <code style="background:#f4f6f7; padding:2px 6px; border-radius:4px;">Steam\steamapps\workshop\content\294100</code> (номер игры). Программа сама определяет нужную папку.</p>
+            </div>
+        </div>
+
+        <!-- Final Call-to-Action -->
+        <div style="text-align:center; margin:40px 0; background:linear-gradient(135deg, #1a5276 0%, #2e86c1 100%); padding:40px; border-radius:12px; box-shadow:0 8px 25px rgba(0,0,0,0.2);">
+            <h2 style="color:#ffffff; margin:0 0 15px 0; font-size:2em;">🖱️ Начните прямо сейчас</h2>
+            <p style="color:#d4e6f1; font-size:1.2em; margin:0 0 20px 0;">Скачайте Workshop-Loader и забудьте о ручной загрузке модов навсегда.</p>
+            <a href="https://github.com/purpleonionmailboat7165/Workshop-Loader" style="display:inline-block; background:#ffffff; color:#1a5276; padding:14px 40px; text-decoration:none; font-weight:bold; border-radius:50px; font-size:1.2em; box-shadow:0 4px 10px rgba(0,0,0,0.3);">⬇️ Перейти к скачиванию</a>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align:center; padding:20px; color:#7f8c8d; font-size:0.9em; border-top:1px solid #d5d8dc; margin-top:30px;">
+            <p>© 2026 Workshop-Loader. Бесплатно для всех пользователей Windows.</p>
+            <p style="margin-top:5px;">Steam, Steam Workshop и Rust являются товарными знаками Valve Corporation.</p>
+        </div>
+
     </div>
 
-    <!-- Persistent site navigation -->
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Jasper Tang home">JASP<span>/</span>TANG</a>
-      <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
-
-    <!-- Main page content: introduction, personal context, then selected work. -->
-    <main id="top">
-      <!-- Introductory hero -->
-      <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow"><span class="status-dot"></span> Portfolio / 2026</p>
-        <h1 id="hero-title">There's nothing more interesting than the world <em>around us.</em></h1>
-        <p class="hero-copy">
-          There;s nothing more interesting than the world around us :)
-        </p>
-        <a class="text-link" href="#about">Get to know me <span aria-hidden="true">↓</span></a>
-      </section>
-
-      <!-- Personal introduction and photo collage -->
-      <section class="about" id="about" aria-labelledby="about-title">
-        <p class="eyebrow">01 / About me</p>
-        <div class="about-content">
-          <div class="about-copy">
-            <h2 id="about-title">Curious by default. Intentional in the details.</h2>
-            <p>
-              I like the work that happens between a first rough thought and a
-              finished, useful thing. My practice brings together strategy, visual
-              design, and code to make products people enjoy returning to.
-            </p>
-            <a class="text-link" href="mailto:hello@example.com">Let’s work together <span aria-hidden="true">↗</span></a>
-          </div>
-
-          <!-- JPG uploads cover these SVG fallbacks automatically when available. -->
-          <div class="photo-collage" aria-label="Photo collage">
-            <figure class="photo photo--portrait">
-              <img src="assets/profile-placeholder.svg" alt="Placeholder for Jasper Tang's profile photograph" />
-              <img class="photo-upload" src="assets/profile.jpg" alt="Portrait of Jasper Tang" />
-            </figure>
-            <figure class="photo photo--one">
-              <img src="assets/collage-01-placeholder.svg" alt="Placeholder for a portfolio collage image" />
-              <img class="photo-upload" src="assets/collage-01.jpg" alt="Portfolio collage image" />
-            </figure>
-            <figure class="photo photo--two">
-              <img src="assets/collage-02-placeholder.svg" alt="Placeholder for a portfolio collage image" />
-              <img class="photo-upload" src="assets/collage-02.jpg" alt="Portfolio collage image" />
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <!-- Origin lab: an interactive modern recreation of Jasper's early gravity simulation. -->
-      <section class="origin-lab" aria-labelledby="origin-title">
-        <div class="lab-stage">
-          <canvas
-            id="physics-canvas"
-            aria-label="Interactive gravity simulation. Click or drag to add bouncing balls."
-          ></canvas>
-          <div class="lab-hud" aria-hidden="true">
-            <span>GRAVITY / 9.8 m·s⁻²</span>
-            <span id="ball-count">OBJECTS / 00</span>
-          </div>
-          <div class="lab-prompt">CLICK + DRAG TO INTRODUCE A PARTICLE</div>
-          <button class="lab-reset" id="reset-simulation" type="button">RESET</button>
-        </div>
-        <div class="lab-story">
-          <p class="eyebrow">01.5 / Origin story</p>
-          <h2 id="origin-title">Before I knew the language for it, I was already modeling the world.</h2>
-          <p>
-            In eighth grade, I built a physics simulation for bouncing balls:
-            gravity, momentum, friction, energy loss. It was a small attempt to
-            understand why things move the way they do—and the first time I felt
-            the particular thrill of turning a question into a system I could
-            touch and experiment with.
-          </p>
-          <p>
-            That impulse is still here. Whether I’m walking to class, standing
-            on a sidewalk, or sitting in a park, I’m drawn to the complexity
-            hiding in plain sight—and to the possibility of building a model
-            that makes it a little more legible.
-          </p>
-        </div>
-      </section>
-
-      <!-- Project work follows the personal introduction in focused dark mode. -->
-      <section class="work" id="work" aria-labelledby="work-title">
-        <div class="section-heading">
-          <p class="eyebrow">02 / Selected work</p>
-          <h2 id="work-title">A few things I’ve been making.</h2>
-        </div>
-
-        <div class="project-grid">
-          <article class="project project--dark">
-            <div class="project-art art-orbit" aria-hidden="true"><i></i><b></b></div>
-            <div class="project-details">
-              <p class="project-number">01</p>
-              <h3>Project One</h3>
-              <p>A short, vivid description of the problem, approach, and result.</p>
-              <span class="project-type">Case study coming soon</span>
-            </div>
-          </article>
-          <article class="project project--lime">
-            <div class="project-art art-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-            <div class="project-details">
-              <p class="project-number">02</p>
-              <h3>Project Two</h3>
-              <p>A short, vivid description of the problem, approach, and result.</p>
-              <span class="project-type">Case study coming soon</span>
-            </div>
-          </article>
-          <article class="project project--peach">
-            <div class="project-art art-shapes" aria-hidden="true"><i></i><b></b><em></em></div>
-            <div class="project-details">
-              <p class="project-number">03</p>
-              <h3>Project Three</h3>
-              <p>A short, vivid description of the problem, approach, and result.</p>
-              <span class="project-type">Case study coming soon</span>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <!-- Contact details and external links -->
-    <footer id="contact">
-      <p class="eyebrow">03 / Get in touch</p>
-      <a class="footer-email" href="mailto:hello@example.com">hello@example.com</a>
-      <div class="footer-bottom">
-        <p>© 2026 Jasper Tang</p>
-        <div><a href="https://github.com/jasptang">GitHub</a><a href="#top">Back to top ↑</a></div>
-      </div>
-    </footer>
-
-    <!-- Reveal uploaded photos only after they load; SVG fallbacks remain otherwise. -->
-    <script>
-      document.querySelectorAll(".photo-upload").forEach((photo) => {
-        if (photo.complete && photo.naturalWidth > 0) photo.classList.add("is-ready");
-        photo.addEventListener("load", () => photo.classList.add("is-ready"));
-        photo.addEventListener("error", () => photo.remove());
-      });
-
-      // Interpolate the ambient page color as the projects section approaches.
-      const root = document.documentElement;
-      const projects = document.querySelector("#work");
-      const startColor = [6, 29, 39];
-      const endColor = [3, 7, 8];
-
-      function updateBackground() {
-        // A long range makes the teal-to-black change gradual and noticeable.
-        const startLine = window.innerHeight * 1.15;
-        const endLine = window.innerHeight * 0.18;
-        const projectTop = projects.getBoundingClientRect().top;
-        const progress = Math.min(1, Math.max(0, (startLine - projectTop) / (startLine - endLine)));
-        const color = startColor.map((channel, index) => Math.round(channel + (endColor[index] - channel) * progress));
-
-        root.style.setProperty("--surface-color", `rgb(${color.join(", ")})`);
-        root.style.setProperty("--accent-opacity", String(0.28 * (1 - progress)));
-      }
-
-      window.addEventListener("scroll", updateBackground, { passive: true });
-      window.addEventListener("resize", updateBackground);
-      updateBackground();
-    </script>
-    <script src="simulation.js"></script>
-  </body>
+</body>
 </html>
